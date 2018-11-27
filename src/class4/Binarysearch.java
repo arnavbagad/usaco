@@ -5,7 +5,7 @@ public class Binarysearch {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class4/binarysearch.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class4/binarysearch.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numNum = Integer.parseInt(strs[0]);

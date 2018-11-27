@@ -10,7 +10,7 @@ public class Ride{
 	public static String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     	
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class1/ride.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class1/ride.in"));
 		String  lines1 = br.readLine(); 
 		String  lines2 = br.readLine(); 
 		

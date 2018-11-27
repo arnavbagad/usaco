@@ -6,7 +6,7 @@ public class Bookclub {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class9/bookclub.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class9/bookclub.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numCows = Integer.parseInt(strs[0]);

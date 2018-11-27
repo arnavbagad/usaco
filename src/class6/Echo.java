@@ -5,7 +5,7 @@ public class Echo {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class6/echo.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class6/echo.in"));
 		String lines = br.readLine();  
 		String[] strs = lines.trim().split("\\s+"); 
 		String voice = strs[0];

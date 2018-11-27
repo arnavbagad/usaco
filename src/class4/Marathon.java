@@ -5,7 +5,7 @@ public class Marathon {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class4/marathon.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class4/marathon.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int runners = Integer.parseInt(strs[0]);

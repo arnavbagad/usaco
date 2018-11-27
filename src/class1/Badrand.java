@@ -8,7 +8,7 @@ public class Badrand {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class1/badrand.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class1/badrand.in"));
 		String num = br.readLine(); 		
 		int randNum = Integer.parseInt(num);
 		newNum(randNum);

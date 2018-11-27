@@ -6,7 +6,7 @@ public class Stringe {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class7/stringe.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class7/stringe.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numString = Integer.parseInt(strs[0]);
