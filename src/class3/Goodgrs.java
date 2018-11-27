@@ -5,7 +5,7 @@ public class Goodgrs {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class3/goodgrs.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class3/goodgrs.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int rows = Integer.parseInt(strs[0]);

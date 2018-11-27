@@ -6,7 +6,7 @@ public class Reorder {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class10/reorder.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class10/reorder.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numCows = Integer.parseInt(strs[0]);

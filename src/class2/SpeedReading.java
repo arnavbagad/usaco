@@ -8,7 +8,7 @@ public class SpeedReading {
 
 
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class2/speedreading.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class2/speedreading.in"));
 		String num = br.readLine();
 		String[] strs = num.trim().split("\\s+");
 		int pages = Integer.parseInt(strs[0]);

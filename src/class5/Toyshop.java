@@ -6,7 +6,7 @@ public class Toyshop {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class5/toyshop.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class5/toyshop.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numToys = Integer.parseInt(strs[0]);

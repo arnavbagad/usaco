@@ -6,7 +6,7 @@ public class BestGrass {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class2/bestgrasses.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class2/bestgrasses.in"));
 		String gp = br.readLine(); 	
 		String[] strs = gp.trim().split("\\s+");
 		int rows = Integer.parseInt(strs[0]);

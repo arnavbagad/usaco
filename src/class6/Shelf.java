@@ -6,7 +6,7 @@ public class Shelf {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class6/shelf.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class6/shelf.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numCows = Integer.parseInt(strs[0]);

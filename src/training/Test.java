@@ -13,7 +13,7 @@ public class Test {
 
 	public static void main(String[] args) throws IOException {
 		
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/training/test.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/training/test.in"));
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("test.out")));
 		StringTokenizer st = new StringTokenizer(br.readLine()); 
 		

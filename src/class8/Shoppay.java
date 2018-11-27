@@ -15,7 +15,7 @@ public class Shoppay {
 
 	public static void main(String[] args) throws IOException {
 
-		File file = new File("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class8/shoppay.in");
+		File file = new File("./src/class8/shoppay.in");
 		Scanner sc = new Scanner(file);
 		int numReg = sc.nextInt();
 		Queue[] register = new Queue[numReg];

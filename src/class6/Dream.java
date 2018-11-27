@@ -5,7 +5,7 @@ public class Dream {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class6/dream.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class6/dream.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int m = Integer.parseInt(strs[0]);

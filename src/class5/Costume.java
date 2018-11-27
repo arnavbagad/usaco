@@ -6,7 +6,7 @@ public class Costume {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class5/costume.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class5/costume.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numCows = Integer.parseInt(strs[0]);

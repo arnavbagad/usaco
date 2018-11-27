@@ -6,7 +6,7 @@ public class Mirror {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class10/mirror.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class10/mirror.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int row = Integer.parseInt(strs[0]);

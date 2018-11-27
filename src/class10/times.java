@@ -6,7 +6,7 @@ public class times {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class10/dinner.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class10/dinner.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numCows = Integer.parseInt(strs[0]);

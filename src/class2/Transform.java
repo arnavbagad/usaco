@@ -5,7 +5,7 @@ import java.io.*;
 public class Transform {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class2/transform.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class2/transform.in"));
 		String value = br.readLine(); 	
 		String[] strs = value.trim().split("\\s+");
 		int sideLength = Integer.parseInt(strs[0]);

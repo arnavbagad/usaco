@@ -8,7 +8,7 @@ public class Dance2 {
 
 		long startTime = System.currentTimeMillis();
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class7/dance2.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class7/dance2.in"));
 		String lines = br.readLine();  
 		String[] strs = lines.trim().split("\\s+");
 		int numSongs = Integer.parseInt(strs[0]);

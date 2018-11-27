@@ -12,7 +12,7 @@ public class Lonesome {
 		int a = 0;
 		int b = 0;
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class1/lonesome.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class1/lonesome.in"));
 		String stuff = br.readLine(); 
 		String line = null; 		
 		int numCows = Integer.parseInt(stuff);

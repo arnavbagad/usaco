@@ -6,7 +6,7 @@ public class Times17 {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class9/times17.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class9/times17.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		String s = strs[0];

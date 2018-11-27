@@ -6,7 +6,7 @@ public class Timecards {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class2/timecards.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class2/timecards.in"));
 		String num = br.readLine();
 		String[] strs = num.trim().split("\\s+");
 		int cows = Integer.parseInt(strs[0]);

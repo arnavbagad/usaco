@@ -6,7 +6,7 @@ public class Mnoteb {
 	
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class5/mnoteb.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class5/mnoteb.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int n = Integer.parseInt(strs[0]);

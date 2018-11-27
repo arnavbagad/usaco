@@ -6,7 +6,7 @@ public class Explore {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class4/explore.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class4/explore.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int timeLeft = Integer.parseInt(strs[0]);

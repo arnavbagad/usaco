@@ -6,7 +6,7 @@ public class Digits {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class9/digits.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class9/digits.in"));
 		String wrongBase2 = br.readLine(); 
 		String wrongBase3 = br.readLine(); 
 

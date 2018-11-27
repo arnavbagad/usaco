@@ -5,7 +5,7 @@ public class Secpas {
 
 	public static void main(String[] args) throws IOException {
 		
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/git/JrJava/Arnav/src/class3/secpas.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class3/secpas.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int area = Integer.parseInt(strs[0]);

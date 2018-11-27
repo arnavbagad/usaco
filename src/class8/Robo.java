@@ -8,7 +8,7 @@ public class Robo {
 
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("/Users/Arnav/Documents/JrJavaMacNeon/eclipseWS/USACO/src/class8/robo.in"));
+		BufferedReader br = new BufferedReader(new FileReader("./src/class8/robo.in"));
 		String lines = br.readLine(); 
 		String[] strs = lines.trim().split("\\s+");
 		int numCommands = Integer.parseInt(strs[0]);
